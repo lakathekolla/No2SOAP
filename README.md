@@ -2,6 +2,8 @@
 
 This project is a SOAP-based API for managing product data.
 
+![Project Screenshot](client/img.png)
+
 ## Features
 
 - Retrieve all products
