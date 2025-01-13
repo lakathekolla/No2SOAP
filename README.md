@@ -27,10 +27,6 @@ This project is a SOAP-based API for managing product data.
 4. **server/config.php**: Update the database connection details to match your database setup.
 5. Access the API via `http://localhost/1v0/soaptest/`.
 
-## Demo
-
-To see a live demo, visit: [Demo Link](http://your-demo-link.com)
-
 ## License
 
 This project is licensed under the MIT License.
