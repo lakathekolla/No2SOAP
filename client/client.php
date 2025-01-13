@@ -12,7 +12,11 @@ class client
 
     public function __construct()
     {
-        $params = array('location' => 'http://localhost/1v0/soaptest/server/server.php', 'uri' => 'urn://localhost/1v0/soaptest/server/server.php', 'trace' => 1);
+        $params = array(
+            'location' => getenv('SOAP_SERVER_URI') ?: "http://localhost/1v0/soaptest/server/server.php",
+            'uri' => getenv('SOAP_SERVER_URI') ?: "http://localhost/1v0/soaptest/server/server.php",
+            'trace' => 1
+        );
         $this->soap_instance = new SoapClient(null, $params);
     }
 
